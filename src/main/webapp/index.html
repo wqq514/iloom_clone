@@ -10,40 +10,105 @@
 <link rel="stylesheet" href="css.iloom.css" />
 <title>일룸 clone</title>
 </head>
-<body>
+<body>	
 	<header>
-		<nav class="main-nav">
-			<ul id="gnb">
-				<li>=</li>
-				<li><a href="#">침실</a></li>
-				<li><a href="#">거실</a></li>
-				<li><a href="#">주방</a></li>
-				<li><a href="#">키즈룸</a></li>
-				<li><a href="#">학생방</a></li>
-				<li><a href="#">서재</a></li>
-				<li><a href="#">펫</a></li>
-				<li><a href="#">시리즈</a></li>
-				<li><a href="#">아울렛</a></li>
-			</ul>
-		</nav>
-		<div class="main-logo">
-			<a href="#">
-				<img src="imgesa/logo.png" alt="일룸 | iloolm">
-			</a>
+		<div class="header-wrap">
+			<nav class="main-nav">
+				<ul id="gnb">
+					<li>
+						<a href="#">
+							<img src="images/icon_menu.svg" alt="전체메뉴">
+						</a>
+					</li>
+					<li><a href="#">침실</a></li>
+					<li><a href="#">거실</a></li>
+					<li><a href="#">주방</a></li>
+					<li><a href="#">키즈룸</a></li>
+					<li><a href="#">학생방</a></li>
+					<li><a href="#">서재</a></li>
+					<li><a href="#">펫</a></li>
+					<li><a href="#">시리즈</a></li>
+					<li><a href="#">아울렛</a></li>
+				</ul>
+			</nav>
+			<div class="main-logo">
+				<a href="#">
+					<img src="imges/logo.png" alt="일룸 | iloolm">
+				</a>
+			</div>
+			<div class="main-links">
+				<ul class="items">
+					<li><a href="#">이벤트</a></li>
+					<li><a href="#">로그인</a></li>
+					<li><a href="#">회원가입</a></li>
+					<li><a href="#">주문/배송</a></li>
+					<li><a href="#">고객지원</a></li>
+					<li><a href="#">매장안내</a></li>
+					<li>
+						<a href="#">
+							<img src="images/icon_search_30px.svg" alt="검색">					
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/icon_menu_30px.svg" alt="메뉴">
+						</a>
+					</li>
+				</ul>
+			</div>
 		</div>
-		<div class="main-links">
-			<ul id="items">
-				<li><a href="#">이벤트</a></li>
-				<li><a href="#">로그인</a></li>
-				<li><a href="#">회원가입</a></li>
-				<li><a href="#">주문/배송</a></li>
-				<li><a href="#">고객지원</a></li>
-				<li><a href="#">매장안내</a></li>
-				<li><a href="#">검색아이콘</a></li>
-				<li><a href="#">장바구니아이콘</a></li>
-			</ul>
+	</header>
+		<div class="side" class="d-none">
+			<div class="side-details">
+				<div class="details-top">
+					<a href="#">&lt;&lr;&lr;click me</a>		<!-- less than : < (&lt;) / entity : special characters -->
+				</div>
+				<div class="details-body">
+					<p class="body-title">이 소식은<br> 놓치지 마세요</p>
+					<ul>
+						<li>
+							<figure>
+								<img src="images/promo1.jpg" alt="프로모션#1">
+								<figcaption>#1.프로모션 바로 보기</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="images/promo2.jpg" alt="프로모션#2">
+								<figcaption>#2.취향체크인 하세요!</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="images/promo3.jpg" alt="프로모션#3">
+								<figcaption>#3.27평 신혼집 집들이</figcaption>
+							</figure>
+						</li>
+					</ul>
+				</div>
+				<div class="details-bottom">
+					<a href="#">&lt;&lr;&lr;click me</a>		<!-- less than : < (&lt;) / entity : special characters -->
+				</div>
+			</div>
+			<a href="#">click me</a>
+		</div>	
+	<div class="carousel">
+		<div id="imgs">
+			<img src="images/carousel-img1.jpg" alt="프로모션 이미지1">		
 		</div>
-	</header>	
+		<div class="btns">
+			<button>
+				<span class="material-symbols-outlined">
+					chevron_left
+				</span>
+			</button>
+			<button>
+				<span class="material-symbols-outlined">
+					navigate_next
+				</span>
+			</button>
+		</div>
+	</div>
 </body>
 </html>
 
