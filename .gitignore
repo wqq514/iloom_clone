@@ -1,6 +1,9 @@
 # Compiled class file
 *.class
 
+#manifest.mf
+*.MF
+
 # Log file
 *.log
 
