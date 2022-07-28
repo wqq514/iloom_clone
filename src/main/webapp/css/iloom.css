@@ -92,9 +92,30 @@ header{
 	font-size:12px;
 }
 
-
-
-
+/*-----promotion-----*/
+.promotion{
+	max-width:1280px;
+	margin:2em auto;
+	overflow: hidden;
+}
+.event-banner{
+	margin-bottom:2em;
+}
+.promotion-list{
+	display: flex;
+	column-gap: 2em;
+}
+.promotion-list img{
+	object-fit:cover;
+	max-width:100%;
+	transition:all 0.7s ease-in-out;
+}
+.promotion-list li{
+	overflow: hidden;
+}
+.promotion-list li:hover img{
+	transform:scale(1.05);
+}
 
 
 
