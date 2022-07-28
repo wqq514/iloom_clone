@@ -101,6 +101,9 @@ header{
 .event-banner{
 	margin-bottom:2em;
 }
+.event-banner img{
+	max-width:100%;
+}
 .promotion-list{
 	display: flex;
 	column-gap: 2em;
