@@ -7,8 +7,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/iloom.css" />
 <title>일룸 clone</title>
+<!-- bxslider installation step1 -->
+<!-- jQuery library (served from Google) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/iloom.css" />
 </head>
 <body>	
 	<div class="side d-none">
@@ -93,9 +98,20 @@
 		</div>
 	</header>
 	<div class="carousel">
-		<div id="imgs">
-			<img src="images/carousel-img1.jpg" alt="프로모션 이미지1">		
-		</div>
+		<ul id="imgs">
+			<li>
+				<img src="images/carousel-img1.jpg" alt="프로모션 이미지1">			
+			</li>
+			<li>
+				<img src="images/carousel-img2.jpg" alt="프로모션 이미지2">			
+			</li>
+			<li>
+				<img src="images/carousel-img3.jpg" alt="프로모션 이미지3">			
+			</li>
+			<li>
+				<img src="images/carousel-img4.jpg" alt="프로모션 이미지4">			
+			</li>
+		</ul>
 		<div class="btns">
 			<button>
 				<span class="material-symbols-outlined">
@@ -255,6 +271,7 @@
 				</div>
 				<div class="like-item">72</div>
 			</li>	
+		</ul>	
 	</div>
 	<aside>
 		<div class="sns">
@@ -420,6 +437,16 @@
 			<p class="count">최근 본 상품(1)</p>
 		</div>
 	</div>
+	<script>
+	$(document).ready(function(){
+		  $('#imgs').bxSlider({
+			mode:'fade',		// 가로, 세로, 페이드 모드
+			auto:true,			// 자동실행
+		  	pause:4000,			// 캐러셀 변경 타이밍 4초 마다
+		  	pager:false 		// (하단)페이저 숨김
+		  });
+		});
+	</script>
 </body>
 </html>
 

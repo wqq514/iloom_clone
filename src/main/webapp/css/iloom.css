@@ -23,6 +23,20 @@ a, a:link{
 	color:var(--base-text-color);
 }
 
+/*-------bxslider----------*/
+.bx-wrapper{
+	border:0;
+}
+.bx-wrapper .bx-prev {
+    left: 10px;
+    background: url('../images/custom.png') 0 -32px no-repeat;
+}
+.bx-wrapper .bx-next {
+    right: 10px;
+    background: url('../images/custom.png') -43px -32px no-repeat;
+}
+
+/*----------Header----------*/
 .header-wrap{
 	max-width:90%;
 	height:60px;
@@ -35,9 +49,143 @@ a, a:link{
 	display: flex;
 	column-gap: 1rem;
 }
+/*
 #imgs img{
 	position: absolute;
 }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
