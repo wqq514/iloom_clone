@@ -64,11 +64,33 @@ header{
 }
 */
 
-
-
-
-
-
+/*----------recommend----------*/
+.recommend{
+	max-width:1280px;
+	margin:0 auto;
+}
+.reco_title{
+	text-align: center;
+	margin:1.5em 0 1.2em 0;
+	font-weight: 500;
+}
+.reco-list{
+	display: flex;
+	column-gap: 1em;
+}
+.reco-list img{
+	width:213px;
+}
+.desc{
+	margin:1em 0;
+	font-size:13px;
+	color:rgb(51, 51, 51);
+	font-weight: normal;
+}
+.price{
+	color:rgb(200, 10, 30);
+	font-size:12px;
+}
 
 
 
